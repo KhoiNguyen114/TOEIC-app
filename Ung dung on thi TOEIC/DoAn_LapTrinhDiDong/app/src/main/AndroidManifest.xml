@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan_laptrinhdidong">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Application.AppTest"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAn_LapTrinhDiDong">
+        <activity android:name=".Activity.DetailBaiThiThuPart7Activity"></activity>
+        <activity android:name=".Activity.DetailBaiThiThuPart6Activity" />
+        <activity android:name=".Activity.DetailBaiThiThuPart4Activity" />
+        <activity android:name=".Activity.DetailBaiThiThuPart3Activity" />
+        <activity android:name=".Activity.DetailBaiThiThuPart1Activity" />
+        <activity android:name=".Activity.DetailBaiThiThuPart5Activity" />
+        <activity android:name=".Activity.DetailBaiThiThuPart2Activity" />
+        <activity android:name=".Activity.DanhMucBaiThiThuActivity" />
+        <activity android:name=".Activity.BaiThiThuActivity" />
+        <activity android:name=".Activity.DetailListeningActivity" />
+        <activity android:name=".Activity.ListeningActivity" />
+        <activity android:name=".Activity.DetailFamilyWordActivity" />
+        <activity android:name=".Activity.DetailGrammarActivity" />
+        <activity android:name=".Activity.DetailVocabularyActivity" />
+        <activity android:name=".Activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.DetailSearchActivity" />
+        <activity android:name=".Activity.DetailChangeSentencesActivity" />
+        <activity android:name=".Activity.GrammarActivity" />
+        <activity android:name=".Activity.ChangeSentencesActivity" />
+        <activity android:name=".Activity.FamilyWordActivity" />
+        <activity android:name=".Activity.VocabularyActivity" />
+        <activity android:name=".Activity.MainActivity" />
+    </application>
+
+</manifest>
